@@ -25,7 +25,10 @@ class BlindStrategy(AIStrategy):
 
     def __init__(self, game):
         self.game = game
-        random.seed(args.get("blind_seed"))
+        try:
+            random.seed(args.get("blind_seed"))
+        except:
+            pass
 
     def get_domino_placement(self, state):
         valid_moves = [

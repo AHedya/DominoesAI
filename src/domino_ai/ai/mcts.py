@@ -118,8 +118,10 @@ class MCTS:
     def __init__(self, game, args):
         self.game = game
         self.args = args
-        if args.get("seed"):
+        try:
             np.random.seed(args["seed"])
+        except:
+            pass
 
     def search(self, state):
         root = Node(self.game, self.args, state)

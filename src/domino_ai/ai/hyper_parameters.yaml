@@ -1,8 +1,8 @@
-blind_seed: 100
+blind_seed: None
 mcts:
   C: 1.4
   num_searches: 1000
-  seed: 100
+  seed: None
 
 rule_based:
   tile_value: 1
