@@ -9,4 +9,4 @@ This Python-based project is an implementation of the classic domino game, allow
 Users can customize the parameters of each algorithm to modify the AI’s behavior and tailor the difficulty or strategic depth of the game.
 The project supports both casual and analytical gameplay, you can let AI compete with another AI.
 
-:warning
+:warning: 
