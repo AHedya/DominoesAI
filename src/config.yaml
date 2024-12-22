@@ -1,0 +1,7 @@
+players: ["player","ai"]
+seed: None
+score: 101
+strategy: rule_based
+
+
+

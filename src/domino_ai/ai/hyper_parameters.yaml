@@ -1,0 +1,12 @@
+blind_seed: 100
+mcts:
+  C: 1.4
+  num_searches: 1000
+  seed: 100
+
+rule_based:
+  tile_value: 1
+  double_tiles: 1.2
+  tiles_in_ground: 1
+  tiles_in_hand: 1
+  blocking_bonus: 5
