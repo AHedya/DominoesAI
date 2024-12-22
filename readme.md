@@ -48,6 +48,7 @@ You can control algorithms hyper-parameters through `src/domino_ai/ai/hyper_para
 
 ## 3. AI algorithms
 **MCTS**: sophisticated algorithm balancing between exploraion and exploitation, through the parameter `C`. This implementation differes alot from the original one, due to the nature of uncertaininty in domino
+
 :warning: current implementation emphsizes only lowering the value of computer hand.
 :x: it's not supported in AI-to-AI matches. it's hard-coded to evaluate `second-player hand` in each state.
 
