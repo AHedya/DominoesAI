@@ -1,6 +1,6 @@
 # DominoAI - DomA
-About the Project
 
+## About the Project
 This Python-based project is a comprehensive implementation of the classic domino game, allowing players to challenge a sophisticated AI opponent. The AI comes equipped with four distinct strategies:
 Blind: A basic, non-strategic approach for a relaxed gameplay experience.
 Monte Carlo Tree Search (MCTS): A probabilistic strategy leveraging simulations to optimize moves.
