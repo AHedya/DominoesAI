@@ -36,6 +36,9 @@ Now run the package
  ```bash
  python -m domino_ai
 ```
+![image](https://github.com/user-attachments/assets/4ec29390-6097-45f6-b63f-a0f474117c65)
+
+:x: Don't change terminal size after running the script, it might corrupt view.
 
 ### configuration 
 You can configure game through `src/config.yaml` file, or you can over-write it using arg parser
