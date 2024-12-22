@@ -1,7 +1,7 @@
 # DominoAI - DomA
 
 ## 1. About the Project
-This Python-based project is an implementation of the classic domino game, allowing players to challenge a sophisticated AI opponent. The AI comes equipped with four distinct strategies:
+This Python-based project is a game engine of the classic domino , allowing players to challenge a sophisticated AI opponent. The AI comes equipped with four distinct strategies:
   1. Rule-Based
   2. Monte Carlo Tree Search (MCTS)
   3. Blind
@@ -48,9 +48,7 @@ You can control algorithms hyper-parameters through `src/domino_ai/ai/hyper_para
 
 ## 3. AI algorithms
 **MCTS**: sophisticated algorithm balancing between exploraion and exploitation, through the parameter `C`. This implementation differes alot from the original one, due to the nature of uncertaininty in domino
-
 :warning: current implementation emphsizes only lowering the value of computer hand.
-
 :x: it's not supported in AI-to-AI matches. it's hard-coded to evaluate `second-player hand` in each state.
 
 **RULE-BASED**: Classic algorithm, giving score to each placible tile based on some criterias( pips count, double, blocking potential ... ).
@@ -66,5 +64,16 @@ You can control how aggressive or defencive the algorithm is by modifing `src/do
 
 ## 4. GUI
 :warning: is currently under developement 
+![domino_gui_pic](https://github.com/user-attachments/assets/e7751286-7c19-4ad6-8afa-c7abbc40fc91)
+
+## 5. Future plans
+ 1. GUI
+ 2. alpha-beta pruning
+ 3. reverse play feature
+ 4. multiplayerv
  
+ ## 6. Notes
+ :warning: project is still under developement
+ 
+ :warning: some code snippets need refactoring
  
