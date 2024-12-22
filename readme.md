@@ -1,6 +1,6 @@
 # DominoAI - DomA
 
-## 1.About the Project
+## 1. About the Project
   This Python-based project is an implementation of the classic domino game, allowing players to challenge a sophisticated AI opponent. The AI comes equipped with four distinct strategies:
     1. Rule-Based
     2. Monte Carlo Tree Search (MCTS)
