@@ -70,7 +70,7 @@ You can control how aggressive or defencive the algorithm is by modifing `src/do
  1. GUI
  2. alpha-beta pruning
  3. reverse play feature
- 4. multiplayerv
+ 4. multiplayer
  
  ## 6. Notes
  :warning: project is still under developement
