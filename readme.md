@@ -1,4 +1,4 @@
-# DominoAI - DomA
+# DominoesAI - DomA
 ![einstein in coffee shpo](https://github.com/user-attachments/assets/333d9f76-3f9e-493d-a3ef-5e812d0d9149)
 
 ## 1. About the Project
